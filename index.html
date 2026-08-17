@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Landing-Page</title>
 </head>
 <body>
     <!--contenedor cabecera-->
     <header>
         <div class="logo">
-            Logo
+            Nexus-Tech
         </div>
         <!--enlaces de navegacion-->
-        <nav>
+        <nav class="links">
             <ul>
-                <li><a href="#">link one</a></li>
-                <li><a href="#">link two</a></li>
-                <li><a href="#">link three</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ayuda</a></li>
             </ul>
         </nav>
     </header>
@@ -25,16 +28,58 @@
     <section class="hero">
         <!--lado izquierdo-->
         <div class="hero-text">
-            <h1>This website is awesome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum possimus eaque sit provident facere ex animi consequatur, aperiam, excepturi molestiae unde amet, atque praesentium ea impedit vitae alias illum.</p>
-            <button type="button">Sign up</button>
+            <h1>Nexus-Tech</h1>
+            <p>
+                En NexusTech no solo vendemos tecnología, construimos el puente entre tu pasión y la victoria. Somos el núcleo donde el hardware de alto rendimiento, los periféricos de élite y las últimas innovaciones se unen para transformar tu setup. Porque cada partida cuenta, cada frame suma y cada detalle importa. Eleva tu juego, domina el entorno y vive la experiencia gamer.
+            </p>
+            <button class="button-hero" type="button">Sign up</button>
         </div>
         <!--lado derecho-->
         <div class="hero-image">
-            <img src="" alt="">
+            <img src="images/setup_gamer.png" alt="Una imagen de una chica con su setup gamer">
         </div>    
     </section>
 
+    <!--Lugar donde estan las 4 cards-->
+    <section class="info">
+        <h2>Productos más vendidos</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="images/conjunto_teclado_mouse.png" alt="Conjunto de teclado, mouse gamer">
+                <p>Conjunto de Teclado y Mouse Gamer con su mousedap como regalo</p>
+            </div>
+            <div class="card">
+                <img src="images/laptop.jpg" alt="Laptop encima del escritorio">
+                <p>Laptop de ultima generacion para trabajos de Home Office</p>
+            </div>
+            <div class="card">
+                <img src="images/tarjeta_grafica.jpg" alt="Tarjeta grafica RXT 2080">
+                <p>Tarjeta Grafica RTX 2080</p>
+            </div>
+            <div class="card">
+                <img src="images/audifonos.jpg" alt="Una imagen de audifonos color rosa claro">
+                <p>Audifonos con un color premium</p>
+            </div>
+        </div>
+    </section>
+    <!--cita-->
+    <section class="quote">
+        <blockquote>
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <cite>Thor, God of Thunder</cite>
+        </blockquote>
+    </section>
+
+    <section class="call">
+        <div class="call-text">
+            <h2>Información</h2>
+            <p>¿Que esperas? estas a un click de tener el setup de tus sueños. Escribenos!</p>
+        </div>
+        
+        <button type="button">Contactanos</button>
+        
+        
+    </section>
     <footer>
         Copyright @ The Odin Project
     </footer>

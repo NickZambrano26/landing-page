@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 10px 40px;
+}
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+img {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px;
+}
+blockquote {
+  max-width: 700px;
+}
+.logo {
+  font-size: 24px; 
+  font-weight: 500;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px;  
+}
+.hero-text {
+  padding: 50px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero-image {
+  padding: 50px;
+  flex-shrink: 0; /*Evitamos que la imagen se encoja*/
+}
+.hero-image img{
+  max-width: 500px; /*Modificar aqui para ir cambiando el tamaño de la imagen del hero*/
+}
+.hero button {
+  font-size: 16px;
+  color: #f9faf8;
+  background-color: #1E90FF;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.info {
+  padding-top: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  width: 220px;
+}
+.card img {
+  width: 100%;
+  display: block;
+  border: 5px solid #1E90FF;
+  border-radius: 8px;
+}
+.card p {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.quote {
+  background-color: #DCDCDC;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  padding: 60px 0;
+}
+.quote cite {
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+}
+.call {
+  color: #f9faf8;
+  background-color: #1E90FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 40px 80px;
+}
+.call-text h2 {
+  text-align: start;
+}
+.call button {
+  font-size: 16px;
+  color: #f9faf8;
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #f9faf8;
+}

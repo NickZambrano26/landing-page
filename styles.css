@@ -42,7 +42,6 @@ blockquote {
 }
 .logo {
   font-size: 24px; 
-  font-weight: 500;
 }
 
 .hero {
@@ -54,11 +53,15 @@ blockquote {
   padding: 40px 80px;  
 }
 .hero-text {
-  padding: 50px;
+  padding: 48px;
   text-align: justify;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-size: 18px;
+}
+.hero h1 {
+  font-weight:900 ;
 }
 .hero-image {
   padding: 50px;
@@ -103,11 +106,13 @@ blockquote {
 }
 
 .quote {
-  background-color: #DCDCDC;
+  background-color: #E5E7EB;
   display: flex;
   justify-content: center;
   font-style: italic;
   padding: 60px 0;
+  font-size: 22px;
+  font-weight: 300;
 }
 .quote cite {
   font-style: normal;
@@ -126,6 +131,8 @@ blockquote {
 }
 .call-text h2 {
   text-align: start;
+  font-size: 36px;
+  font-weight: 900 ;
 }
 .call button {
   font-size: 16px;

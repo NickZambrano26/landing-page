@@ -19,4 +19,4 @@ Puedes ver la página desplegada en GitHub Pages aquí: [link cuando esté listo
 
 ## Créditos de imágenes
 
-- [Nombre del fotógrafo] - [link directo a la foto en Pexels/Pixabay/Unsplash]
+https://pixabay.com/es/photos/search/pc%20gamer/
